@@ -18,6 +18,7 @@ dependencies {
   implementation("commons-io:commons-io:1.3.2")
   implementation("org.apache.httpcomponents:httpclient:4.3.6")
   implementation("org.apache.httpcomponents:httpmime:4.3.3")
+  implementation("org.graalvm.js:js:20.1.0")
   testImplementation(enforcedPlatform("org.junit:junit-bom:5.6.2"))
   testImplementation("org.junit.jupiter:junit-jupiter")
   testImplementation("junit:junit:4.13")
