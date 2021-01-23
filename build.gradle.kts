@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+  implementation("org.java-websocket:Java-WebSocket:1.5.1")
   implementation("org.jsoup:jsoup:1.8.1")
   implementation("org.json:json:20190722")
   implementation("commons-configuration:commons-configuration:1.7")
